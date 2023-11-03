@@ -1,0 +1,22 @@
+Que es un API REST 
+
+
+-- API -- aplication program interface 
+-- Permiten comunicarse con los sistemas 
+
+
+-- API REST es una interfaz que la utilizamos para 
+   comunicarnos back - front || back - back
+
+
+-- API REST son apis para comunicar sistemas por medio de http 
+	
+
+endPoinst 
+
+-- Son rutas, pero podemos tener diferentes rutas para solicicitar diferentes contenido 
+
+QueryParameter 
+
+-- Son informacion extra (endPoint) para poder limitar o explicar mejor a la informacion que 
+nos esta pidiendo nuestro backend

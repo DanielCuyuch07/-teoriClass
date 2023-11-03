@@ -1,0 +1,34 @@
+1. Cliente --- Servidor 
+
+Es la manera en la cual los usuarios hacen peticiones al servidor 
+
+CLIENTE 
+
+Es la interfaz de usuario o aplicacion que interactua con los usuarios 
+
+SERVIDOR  
+
+Es una maquina que almacena y procesa los datos y proporciona servicios a los clientes 
+
+2. Patron de diseño MVC 
+
+Controlador --- Es toda la programacion  
+
+View -- Son el codigo HTML O Plantillas etc 
+
+Model -- Base de datos 
+
+3. API REST (Representational State Transfer)
+
+-- Verbos post,put,delete,get
+-- Aprovecha los verbos del protocolo HTTP 
+-- Cuando hacemos peticiones a una APIREST -- backend devuelve en formto json
+
+4. Codigos de respuesta HTTP 
+
+ 100 -- Respuestas informativas 
+ 200 -- Respuestas con exitosas 
+ 300 -- Necesidades de redirecciones 
+ 400 -- Errores de clientes (Errores de capa 8)
+
+ 
