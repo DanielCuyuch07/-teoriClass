@@ -1,0 +1,238 @@
+-------------------------- Que es .net ? ------------------------
+
+
+-- Es una plataforma de desarrollo creada por microsoft
+-- Es una libreria 
+-- Creado en 2016
+-- Programado en C# y C++ 
+-- Orientado al alto rendimiento y la nube 
+
+
+------------ Diferencia entre .net framework y .net core -----------
+ 
+
+.Net framework 
+
+-- Compatible con Windows 
+-- C# VSBasic .net F#, 
+-- Orientado a aplicaciones monoliticas 
+	y corporativas 
+-- Dependencia de Visual Studio.
+
+.Net Core 
+
+-- Multiplataforma con Windows, Linux, MacOs
+-- C# f#, VSBasic 
+-- Orientado al alto rendimiento y arquitecturas orientadas a la nube 
+-- Sin Dependencias de IDE o Editor de texto.
+
+			.net core = .net
+ 
+
+---------------------- Ventajas y usos de .Net ------------------------
+
+-- Podemos usar .net para crear aplicaciones de consola y librerias 
+-- .net podemos hacer aplicaciones web o APIs usadno ASP.NET 
+-- Aplicaciones web usando Web assembly con Blazor 
+
+Ventajas 
+
+-- Multiplataforma 
+-- Compatible con multiples lenguajes de programación 
+-- Muchas herramientas y librerias gratuitas 
+
+
+-------------------- Common language runtime CLR --------------------
+
+-- Es la base con la que se ejecutan las aplicaciones .net 
+-- Los lenguajes que trabajan con .net son lenguajes compilados 
+
+Caracteristicas 
+
+-- Se utiliza como compilador de tiempo de ejecucion 
+-- Agiliza la ejecución del codigo compilado
+
+
+
+--------------------- Compilador Roslyn ---------------------------
+
+Es un conjunto de compiladores de codigo abierto desarrollado por microsoft, pero roslyn 
+no solo es un conujnto de compiladores, sino tambien una API que permite a los desarrolladores acceder y manipular informacion detallada sobre el codigo fuente durante la compilacion y el anilis 
+
+-- Conocido como .net compiler platform 
+
+-- Soporta C# y Visual Basic 
+
+-- Analiza estilo y calidad de codigo usando niveles de severidad
+
+-- Rapido y ágil 
+
+
+-------------- Common language specification ------------------
+
+Es un conjunto de reglas que deben seguir  los lenguajes de programacion, que se dirigen 
+a la plataforma .net para garantizar la compatibilidad y la interoperatividada entre ellos
+
+ 
+Caracteristicas 
+
+-- Diseñado para lenguajes compilados 
+-- Soporta C#, VSBasic F#
+-- Permite comunicar estrne componentes de diferentes de lenguajes
+
+--------------    Common Type System ---------------
+
+Definen un conjunto de reglas que gobiernan como los tipos de datos se declaran, 
+definen y utilizan en programas escritos en lenguajes de programacion que se dirigen a la 
+plataforma .net
+
+
+Caracteristicas 
+
+-- Define los tipos generales que se usan dentro del lenguaje de programacion 
+
+-- Provee la libreria base para los tipos primitivos 
+
+-- Provee un modelo de tipos de orientado a objetos 
+
+
+Categirias 
+
+-- Clases 
+-- Estructuras 
+-- Enumeraciones 
+-- Interfaces 
+-- Delegados 
+
+
+------------------------------ C# y ASP.NET  ------------------------------------
+
+Diferencia : 
+
+-- Son tecnologias de microsoft
+
+-- C# Es un lenguaje de programcion y ASP.NET es un framework (marco de desarrollo web)
+
+-- C# se utiliza para escribir la LOGICA de la programacion, y ASP.NET se utiliza 
+para construir la aplicacion web 
+
+-- ASP.NET utiliza c#(u otros lenguajes .net) para la programacion del servidor web 
+
+-- ASP.NET se encarga de gestion de solicitudes web,la presnetacion de datos y la 
+interaccion con la base de datos,
+
+mientras que c# se centra en la logica de la aplicacion en el servidor 
+
+
+--------------------------------- Funcion del componente -------------------------
+
+Los componentes suelen utilizar variedad de funcionalidades especificas para aplicaciones 
+web, estas funcionalidades especificas pueden incluir.. ?
+
+Validacion de datos 
+
+Acceso a bases de datos
+
+Aunenticacion  y autorizacion 
+
+compresion y alamacenamiento de caché
+
+Envio de correos electronicos 
+
+Integracion con servicios web y APIS externas 
+
+-------------------------------- Como encontrar paquetes para .net usando nuget. ------------------
+
+nuget.org
+
+
+¿Cómo se llama la carpeta donde se guardan los compilados del proyecto?
+
+bin
+
+
+El common está diseñado para lenguajes interpretados
+
+falso
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							
+										Curso de Entity Framework
+
+1.Arquitectura Basica 
+
+Front-end ---> Backend ---> Base de datos 
+
+----------------------------- 2.Tipo de conexion ------------------------------------------
+
+ODBC 
+OLEDB 
+SQL Server 
+Conexion Azure SQL 
+
+
+--------------------------------- 3.ADO.NET -------------------------------------------------- 
+
+-- Es una tecnologia de microsoft que permite a las aplicaciones acceder a base de datos y trabajar con los datos almacenados en ellas 
+-- Lo utilizamos para conectarnos a una amplia variedad de sistemas de gestion de datos incluyendo SQL server, Oracle, MySQL 
+
+¿Que tareas podemos realizar con ADO.NET?
+
+	0.3 Conectarse a una base de datos
+	1.3 Ejecutar comandos 	
+	2.3 Leer y escribir datos 
+	3.3 Realizar transacciones
+
+
+-------------------------- ¿Que es un ORM en programacion? ------------------------------------
+
+-- Es una herramienta que realiza un MAPEO que nos permite TRANSFORMAR los objetos de la base de datos como TABLAS Y ESQUEMAS A CLASES CON ATRIBUTOS 
+en código de programacion para poder manipular la informacion de una forma mas facil sin requerirs de sql 
+
+-- Reemplazar a SQL como lenguaje de consultas utilizando funciones 
+
+
+Desafios en la conexion a una base de datos 
+
+	0.4 Mantenimiento de esquemas 
+	1.4 Creacion de consultas usando SQL 
+	2.4 Transformacion de datos para ser usados en el backend 
+	3.4 Garantiza la seguridad al manipular datos.
+
+ORM populares 
+
+Hibernate 
+django
+Dapper 
+
+
+¿Comprension?
+
+	El ORM es un herramienta que nos ayuda con la interaccion de una base de datos con un lenguaje de programacion 
+	permitiendo manipular las tablas, consultas etc por medio de codigo de programacion 
+
+
+-------------------------- Introduccion a Entity Framework -----------------------------------
+
+-- Es un ORM de codigo habierto para .net 
+-- Utiliza el mapeo de codigo con sql a C#
+-- Utiliza ADO.NET para facilitar la conexion a bases de datos y manipulacion de datos. 
+
+
+Ventajas de Entity Framework 
+
+-- Mejora de velocidad de desarrollo 
+-- Permite manejar un solo repositorio para backend y base de datos
+-- Mejora la seguridad 
+-- Permite programar de manera mas amigable y facil 
+-- Permite controlar el historia de la base de datos de manera sencilla 
+
+
+
+
+
